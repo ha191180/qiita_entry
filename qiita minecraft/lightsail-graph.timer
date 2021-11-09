@@ -1,0 +1,8 @@
+[Unit]
+Description=timer lightsail-graph
+
+[Timer]
+OnUnitActiveSec=30min
+
+[Install]
+WantedBy=timers.target

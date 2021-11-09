@@ -1,0 +1,10 @@
+[Unit]
+Description=make server status graph
+
+[Service]
+Type=oneshot
+ExecStart=/opt/status.py
+User=ubuntu
+
+[Install]
+WantedBy=multi-user.target
